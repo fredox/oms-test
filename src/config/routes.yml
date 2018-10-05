@@ -1,0 +1,10 @@
+index:
+  method: 'GET'
+  pattern: '/'
+  controller: 'index.controller'
+  action: 'info'
+order.creation:
+  method: 'GET|POST'
+  pattern: '/order'
+  controller: 'order.controller'
+  action: 'create'

@@ -1,0 +1,8 @@
+logger:
+  file: '/../api-log.log'
+  level: 'NOTICE'
+db:
+  host: 'mysql'
+  database-name: 'oms'
+  user: 'root'
+  password: 'secret'
